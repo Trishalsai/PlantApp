@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 app = FastAPI()
 origins = [
     "http://130.89.87.169:19000",  
-    "https://localhost:3000",   
+    "http://localhost:3000",   
 ]
 # Set up CORS middleware
 app.add_middleware(
