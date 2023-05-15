@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 
 app = FastAPI()
 origins = [
-    "http://localhost:3000",  # Example: Allow requests from a local development server
+    "http://130.89.87.169:19000",  # Example: Allow requests from a local development server
     "https://example.com",    # Example: Allow requests from a specific domain
 ]
 # Set up CORS middleware
