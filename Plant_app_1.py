@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 # Load the deep learning model
-model = load_model('Final.h5')
+model = load_model("Final.h5")
 
 # Define the class labels
 class_labels = ['Tomato_Bacterial_spot','Tomato_Early_blight','Tomato_Late_blight','Tomato_Leaf_Mold','Tomato_Septoria_leaf_spot','Tomato_Spider_mites_Two_spotted_spider_mite','Tomato__Target_Spot','Tomato__Tomato_YellowLeaf__Curl_Virus','Tomato__Tomato_mosaic_virus','Tomato_healthy']
