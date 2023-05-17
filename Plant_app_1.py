@@ -11,7 +11,7 @@ origins = ["http://localhost:3000"]
 origins1 = ["http://16.16.107.23:80:3000"]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins1,
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
