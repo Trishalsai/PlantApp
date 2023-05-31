@@ -7,8 +7,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 app = FastAPI()
-origins = ["http://localhost:3001"]
-origins1 = ["http://16.16.107.23:80:3000"]
+origins = ["http://localhost:3000"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
